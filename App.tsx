@@ -1,6 +1,6 @@
 import React from 'react'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
-import { StatusBar, Text } from 'react-native'
+import { StatusBar, Text, View } from 'react-native'
 
 const App = () => {
   return (
@@ -11,7 +11,14 @@ const App = () => {
         backgroundColor={'transparent'}
         barStyle={'light-content'}
       />
-      <Text>App.js</Text>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
+        <Text>App.js</Text>
+      </View>
     </SafeAreaProvider>
   )
 }
