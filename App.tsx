@@ -18,6 +18,7 @@ const App = () => {
           alignItems: 'center',
         }}>
         <Text>App.js</Text>
+        <Text>Spotify Clone Redesigned</Text>
       </View>
     </SafeAreaProvider>
   )
